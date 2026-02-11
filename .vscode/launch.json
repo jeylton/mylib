@@ -1,0 +1,36 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "📱 LibroFlow Mobile Debug",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "emulator-5554"
+        },
+        {
+            "name": "🌐 LibroFlow Web Debug",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "💻 LibroFlow Windows Debug",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "windows"
+        },
+        {
+            "name": "📱 LibroFlow Mobile Profile",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "deviceId": "emulator-5554"
+        },
+        {
+            "name": "📱 LibroFlow Mobile Release",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "deviceId": "emulator-5554"
+        }
+    ]
+}
