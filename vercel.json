@@ -2,7 +2,6 @@
   "version": 2,
   "name": "libroflow",
   "builds": [{"src": "build/web/**", "use": "@vercel/static"}],
-  "routes": [{"src": "/(.*)", "dest": "/index.html"}],
   "env": {"FLUTTER_WEB_API_URL": "https://libroflow-api.onrender.com/api"},
   "rewrites": [{"source": "/(.*)", "destination": "/index.html"}]
 }
